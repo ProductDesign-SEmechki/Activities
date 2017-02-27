@@ -12,7 +12,7 @@ from . import models
 
 logger = logging.getLogger(__name__)
 
-@enforce_ordering(slight=True)
+@enforce_ordering(slight=False)
 @channel_session_user_from_http
 def ws_connect(message):
     """
