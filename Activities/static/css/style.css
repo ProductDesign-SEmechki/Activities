@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100%;
     /*font-family: 'Ek Mukta', sans-serif;*/
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 300;
     color: #666;
     background-color: #fff;
@@ -57,7 +57,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 400;
     color: #111;
 }
@@ -158,11 +158,12 @@ blockquote strong {
     margin-top: 10px;
 }
 
+
 .site-logo a.brand {
-    color: #111;
+    color: #973459;
     text-transform: uppercase;
     font-size: 32px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 900;
     margin-top: 20px;
 }
@@ -198,7 +199,7 @@ blockquote strong {
 }
 
 .navbar-custom ul.nav li a {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
     color: #444;
     text-transform: uppercase;
@@ -477,18 +478,18 @@ hr.bold {
 ============================ */
 
 .hero {
-    background: url(../img/header.png) no-repeat center center;
+    background: url(../img/try1.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 140px 0 140px 0;
-    height: auto;
+    padding: 100px 0 100px 0;
+    /*height: 200;*/
 }
 
 .hero h1 {
-    font-size: 40px;
-    letter-spacing: 12px;
+    font-size: 60px;
+    letter-spacing: 4px;
     margin: 40px 0 10px;
     font-weight: 900;
     color: #fff;
@@ -910,7 +911,7 @@ form.search-form input:focus {
 --- Footer
 ============================ */
 footer {
-    background-color: #404040;
+    background-color: #bb78d4;
 }
 
 footer, .page-wrap:after {
@@ -1121,8 +1122,8 @@ a.btn:focus {
 .btn-skin:active,
 .btn-skin.active {
     color: #fff;
-    background-color: #666;
-    border-color: #666;
+    background-color: #bb78d4;
+    border-color: #bb78d4;
 }
 
 .btn-default:hover,

@@ -237,6 +237,9 @@ th {
   .navbar {
     display: none;
   }
+  .navbar {
+    font-size: 24px;
+  }
   .table td,
   .table th {
     background-color: #fff !important;
