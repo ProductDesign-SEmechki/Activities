@@ -14,19 +14,22 @@ So guys if you have python, or pip or django please proceed further
 	4.1) proceed to https://git-scm.com/
 	4.2) download and install it
 5) Install additional stuff for heroku and stuff
-	5.1) pip install dj_database_url
-	5.2) pip install whitenoise
-	5.3) pip install psycopg2
-	5.4) pip install django-leaflet
-	5.5) pip install channels
-	5.6) pip install asgi_redis
-	5.7) pip install redis
-	5.8) pip install django-bootstrap3-datetimepicker
+	5.0) sudo apt install libpq-dev python3-dev
+	5.1) pip3 install dj_database_url
+	5.2) pip3 install whitenoise
+	5.3) pip3 install psycopg2
+	5.4) pip3 install django-leaflet
+	5.5) pip3 install channels
+	5.6) pip3 install asgi_redis
+	5.7) pip3 install redis
+	5.8) pip3 install django-bootstrap3-datetimepicker
 6) Clone our repo
 	6.1) run command from directory where you want to be files of project "git clone https://github.com/MSD-GroupI/Activities.git"
 7) If it your first run you should use some stuff like this
 	7.1) "python ./Activities/manage.py createsuperuser", creates your user at heroku.com
-8) Run script ServerLauncher.bat
+8) at pd/lib/python3.5/site-packages/bootstrap3_datetime/widgets.py
+change django.forms.util to django.forms.utils
+9) Run script ServerLauncher.bat
 ------------------------------------------------------------------------------
 UNIX LIKE SECTION
 ------------------------------------------------------------------------------
